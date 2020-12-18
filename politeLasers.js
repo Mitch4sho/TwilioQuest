@@ -1,8 +1,7 @@
-function getLaserSetting(a) {
-    if (a === 'please') {
-        return 'OFF';
-    } else {
-        return 'ON'
-    }
-
+function getLaserSetting(magicWord) {
+   if (magicWord == "please"){
+       return "OFF"
+   } else {
+       return "ON"
+   }
 }
